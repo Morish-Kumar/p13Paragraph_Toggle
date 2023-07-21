@@ -19,6 +19,7 @@ const toggleParagraphHandler =() =>{
   return (
     <div className="app">
       <h1>Hi there!</h1>
+      <h1>Hi there!</h1>
       {/* {showParagraph && <p>This is a new Para</p>} */}
       <DemoOutput show={showParagraph}/>
       {/* <DemoOutput show={false}/>  */}
