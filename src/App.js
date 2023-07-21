@@ -24,6 +24,7 @@ const toggleParagraphHandler =() =>{
       {/* <DemoOutput show={false}/>  */}
       {/* above statement is to show that when the parent component is not re-executed and re-evaluated the child component is also not re-rendered */}
       <Button onClick={toggleParagraphHandler}>Toggle Paragraph</Button>
+      <Button>Hide paragraph</Button>
     </div>
   );
 }
