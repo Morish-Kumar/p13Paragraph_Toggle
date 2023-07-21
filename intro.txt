@@ -1,0 +1,18 @@
+how does react works - we use react to build user interfaces using the components 
+
+
+reatc dom - interface to the web
+react basically take care of the changes that occured in the components and send those changes to the DOM which then take care about rendering the changes 
+
+NOTE: whenever state, props or a context of a component changes that component is re-executed and that component is re-evaluated by react
+
+Vritual DOM Digging - findin out the difference between two snapshot
+
+
+if a component is re-executed then all its child component will be re-executed and re-evaluated
+
+How can we prevent un-neccassary re-evaluation?
+we have have use React.memo(component_name) for whichever app we want to  prevent the un-neccassary re-execution and re-evaluation
+
+
+useCallBack hook - hooks that allow us to store a function across component execution and function stored should not be recreated with every execution
